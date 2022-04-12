@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nơi đáng đi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        };
+    </style>
+    <div class="container-flude">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"
+                style="margin-left:60px; color:lightyellow; font-size: 20px;">Noidangdi.vn</a>
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item" style="margin-left:20px; width: 90px;">
+                    <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown" style="margin-left:20px">
+                    <a class="nav-link dropdown-toggle" href="cuahang.html" id="navbardrop" data-toggle="dropdown">
+                        Cửa hàng
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="254nguyentrai.html">254 Nguyễn Trãi</a>
+                        <a class="dropdown-item" href="buipho.html">Bụi phố</a>
+                        <a class="dropdown-item" href="laylaquan.html">Layla Quán</a>
+                        <a class="dropdown-item" href="rolli.html">Rolli</a>
+                        <a class="dropdown-item" href="petrogiangmai.html">Petro Giang Mai</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" style="margin-left:20px">
+                    <a class="nav-link dropdown-toggle" href="cuahang.html" id="navbardrop" data-toggle="dropdown">
+                        Du lịch
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="nhatban.html">Nhật bản</a>
+                        <a class="dropdown-item" href="vietnam.html">Việt Nam</a>
+                        <a class="dropdown-item" href="phap.html">Pháp</a>
+                        <a class="dropdown-item" href="trungquoc.html">Trung Quốc</a>
+                    </div>
+                </li>
+                <li class="nav-item" style="margin-left:20px; width: 100px;">
+                    <a class="nav-link" href="dangnhap.html">Đăng nhập</a>
+                </li>
+                <li class="nav-item" style="margin-left:20px; width: 100px;">
+                    <a class="nav-link" href="dangky.html">Đăng ký</a>
+                </li>
+            </ul>
+            <form class="d-flex" style="margin-left:350px;">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+    <div class="container-fluide">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+            style="height: 750px; overflow: hidden;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="vietnam.html"><img src="../bootstrap-5.1.1-dist/ảnh du lịch/vietnam.jpg"
+                            class="d-block w-100" alt="0"></a>
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 100px">
+                        <h5>Việt Nam</h5>
+                        <p>Là 1 trong những đất nước đẹp nhất trên thế giới, hàng hóa rẻ và sự thân thiện của con người
+                            nơi đây là một trong những lý do bạn không nên bỏ qua điểm đến này.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="buipho.html"><img src="../bootstrap-5.1.1-dist/ảnh nhà hàng/Bụi phố.jpg"
+                            class="d-block w-100" alt="1"></a>
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 100px">
+                        <h5>Bụi phố</h5>
+                        <p>Trà chanh Bụi phố, một cái tên không thể không biết tới với người miền Bắc, nơi mọi người
+                            thường hay lui đến như một điểm gặp mặt lý tưởng.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="nhatban.html"><img src="../bootstrap-5.1.1-dist/ảnh du lịch/nhật.jpg" class="d-block w-100"
+                            alt="2"></a>
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 100px">
+                        <h5>Nhật bản</h5>
+                        <p>Đất nước xứ sở mặt trời mọc với biểu tượng hoa anh đào này thực sự có một nền văn minh đáng
+                            ngưỡng mộ, đến với nơi đây bạn sẽ học hỏi được một nền văn hóa ưu tú nhưng không kém đặc
+                            sắc.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="rolli.html"><img src="../bootstrap-5.1.1-dist/ảnh nhà hàng/Rolli.jpg"
+                            class=" d-block w-100" alt="3"></a>
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 160px">
+                        <h5>Rolli</h5>
+                        <p>Bạn muốn tổ chức sinh nhật, hội họp? Đây là một nơi tuyệt vời để bạn làm điều đó.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <h1 style="text-align:center; margin-top: 80px; text-decoration: underline brown ; color: brown;">Những nơi đáng đến
+    </h1>
+    <h2 style="margin-top: 50px; margin-left: 150px; color: brown;">>> Cửa hàng</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">254 Nguyễn Trãi</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" src="../bootstrap-5.1.1-dist/ảnh nhà hàng/254 Nguyễn Trãi.png" alt="">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Địa điểm: 317 Nguyễn Khang, Quận Cầu Giấy, Hà Nội<br>
+                            Thời gian: 07:30 – 22:00<br>
+                            Giá: 35.000đ – 55.000đ
+                        </p>
+                        <a href="254nguyentrai.html" class="btn btn-primary btn-outline-primary">Đi đến</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Bụi phố</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px"
+                        src="../bootstrap-5.1.1-dist/ảnh nhà hàng/Bụi phố.jpg" alt="">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Địa điểm 1: Tầng 9 – 10, 338 Phố Huế, Hai Bà Trưng<br>
+                            Địa điểm 2: Số 1 Hồ Tùng Mậu, quận Cầu Giấy
+                        </p>
+                        <a href="buipho.html" class="btn btn-primary btn-outline-primary">Đi đến</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Layla quán</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px"
+                        src="../bootstrap-5.1.1-dist/ảnh nhà hàng/Layla Quán.jpg" alt="">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Địa điểm: Số 2 Nhà Thờ, Quận Hoàn Kiếm, Hà Nội<br>
+                            Thời gian: 08:00 – 23:00<br>
+                            Giá: 30.000đ – 65.000đ
+                        </p>
+                        <a href="laylaquan.html" class="btn btn-primary btn-outline-primary">Đi đến</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Petro Giang Mai</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px"
+                        src="../bootstrap-5.1.1-dist/ảnh nhà hàng/Petro Giang Mai.jpg" alt="">
+                    <div class="card-body">
+                        <p> Địa điểm: Nhà hàng – Việt Nam tại 5 Tây Hồ, P. Quảng An, Quận Tây Hồ, Hà Nội<br>
+                            Thời gian 9:00 – 22:00<br>
+                            Giá: 20.000đ – 300.000đ
+                        </p>
+                        <a href="petrogiangmai.html" class="btn btn-primary btn-outline-primary">Đi đến</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Rolli</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px" src="../bootstrap-5.1.1-dist/ảnh nhà hàng/Rolli.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <p>Địa điểm: 89 Mã Mây,  Quận Hoàn Kiếm, Hà Nội<br>
+                            Thời gian: 10:00 – 23:00<br>
+                            Giá: 25.000đ – 55.000
+                        </p>
+                        <a href="rolli.html" class="btn btn-primary btn-outline-primary">Đi đến</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 style="margin-top: 50px; margin-left: 150px; color: brown;">>> Du lịch </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Việt Nam</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px"
+                        src="../bootstrap-5.1.1-dist/ảnh du lịch/vietnam.jpg" alt="">
+                    <div class="card-body">
+                        <p>Là 1 trong những đất nước đẹp nhất trên thế giới, hàng hóa rẻ và sự thân thiện của con người
+                            nơi đây là một trong những lý do bạn không nên bỏ qua điểm đến này.
+                        </p>
+                        <a href="vietnam.html" class="btn btn-primary btn-outline-primary" style="margin-top:24px">Đi
+                            đến</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Trung Quốc</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px"
+                        src="../bootstrap-5.1.1-dist/ảnh du lịch/trung quốc.jpg" alt="">
+                    <div class="card-body">
+                        <p>Đất nước này đang ngày càng đi lên từ mọi khía cạnh nhưng ở nơi đây vẫn còn rất nhiều điểm
+                            đáng để chúng ta chiêm ngưỡng với những công trình kiến trúc đặc biệt.
+                        </p>
+                        <a href="trungquoc.html" class="btn btn-primary btn-outline-primary">Đi đến</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Pháp</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px" src="../bootstrap-5.1.1-dist/ảnh du lịch/pháp.webp"
+                        alt="">
+                    <div class="card-body">
+                        <p>Có thể coi đây là đất nước của sự lãng mạng, của chất thơ, với kinh đô ánh sáng, ẩm thực và
+                            nền văn hóa đồ sộ ở nơi đây sẽ cho bạn những trải nghiệm khó quên.
+                        </p>
+                        <a href="phap.html" style="margin-top:24px" class="btn btn-primary btn-outline-primary">Đi
+                            đến</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top:50px;">
+                <h4 class="mb-4" style="text-align: center;">Nhật Bản</h4>
+                <div class="card img-thumbnail" style="width: 100%;">
+                    <img class="card-img-top" style="height: 226px" src="../bootstrap-5.1.1-dist/ảnh du lịch/nhật.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <p>Đất nước xứ sở mặt trời mọc với biểu tượng hoa anh đào này thực sự có một nền văn minh đáng
+                            ngưỡng mộ, đến với nơi đây bạn sẽ học hỏi được một nền văn hóa ưu tú nhưng không kém đặc
+                            sắc.
+                        </p>
+                        <a href="nhatban.html" class="btn btn-primary btn-outline-primary">Đi
+                            đến</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px ;">
+        <p style="color: brown; font-size: 30px; text-align: center;">Hãy đăng ký để có thêm nhiều điểm đến khác.</p>
+        <a href="dangky.html" class="btn btn-danger dkd" style="margin-left:492px; font-size:28px;">Đăng ký</a>
+    </div>
+    <div class="row" style="margin-top:100px; background-color: rgba(0, 0, 0, 0.74); height: 170px; width: 101%;">
+        <div class="col-md-7" style="padding: 50px;box-sizing: border-box; padding-bottom: 0px; padding-top:30px">
+            <p style="color: white; font-size: 14px;">
+                <b>Hotline</b><br>
+                Địa chỉ: Số 66, Nguyễn Trãi, Thanh Xuân, Hà Nội<br>
+                Trụ sở chính: 02456710456<br>
+                Email: quan20028a3kb@gmail.com<br>
+                Phản hồi tới CEO: 05842758614
+            </p>
+        </div>
+        <div class="col-md-5" style="padding: 50px;box-sizing: border-box;padding-bottom: 0px;padding-top: 30px;; font-size: 14px;">
+            <p style="color: white; ">
+                <b>Chủ tài khoản:</b><br>
+                Công ty cổ phần Vinpearl<br>
+                Tài khoản ngân hàng số: 9124412488166 (VND)<br>
+                Ngân hàng thương mại cổ phần Kỹ Thương Việt Nam (Techcombank) – Hội sở
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crosorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
